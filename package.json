@@ -1,0 +1,33 @@
+{
+  "name": "strapi-plugin-bootstrap-admin-user",
+  "version": "1.0.0",
+  "description": "Creates an admin user in development mode.",
+  "strapi": {
+    "name": "bootstrap-admin-user",
+    "icon": "plug",
+    "description": "Creates an admin user in development mode."
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Catan Marin",
+    "email": "catan.marin@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Catan Marin",
+      "email": "catan.marin@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "bootstrap",
+    "admin",
+    "role"
+  ],
+  "license": "MIT"
+}
