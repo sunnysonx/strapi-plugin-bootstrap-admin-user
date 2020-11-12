@@ -1,3 +1,2 @@
-# Strapi plugin bootstrap-admin-user
-
-A quick description of bootstrap-admin-user.
+# strapi-plugin-bootstrap-admin-user
+Creates an admin user in development mode.
