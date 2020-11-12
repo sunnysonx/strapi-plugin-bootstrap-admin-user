@@ -33,4 +33,4 @@ DEV_ADMIN_LASTNAME
 DEV_ADMIN_EMAIL
 ```
 
-## Note: Please use it only on the development environment.
+## Note: Please use it only in the development environment.
