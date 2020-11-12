@@ -5,11 +5,11 @@ The first step verifies if the `strapi-super-admin` role exists; if it doesn't e
 
 ### Installation
 ```
-yarn add strapi-plugin-bootstrap-admin-user --dev
+yarn add strapi-plugin-bootstrap-admin-user
 ```
 or
 ```
-npm install strapi-plugin-bootstrap-admin-user --save-dev
+npm install strapi-plugin-bootstrap-admin-user
 ```
 
 ### Usage
