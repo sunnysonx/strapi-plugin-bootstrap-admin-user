@@ -4,6 +4,18 @@ Automatically creates an admin user in development mode.
 At the first step it verifies if `strapi-super-admin` role exists, if it doesn't exist then it creates one.
 At the second step it verifies if admin user exists, if it doesn't exist then it creates one with the `strapi-super-admin` role.
 
+### Installation
+```
+yarn add strapi-plugin-bootstrap-admin-user --dev
+```
+or
+```
+npm install strapi-plugin-bootstrap-admin-user --save-dev
+```
+
+### Usage
+Credentials will be outputed in console on the First run.
+
 ### Default credentials:  
 ```
 Username: admin  
