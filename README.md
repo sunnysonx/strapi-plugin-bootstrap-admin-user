@@ -21,7 +21,7 @@ Username: admin
 Password: admin  
 Firstname: Admin  
 Lastname: Admin  
-Email: admin@test.test
+Email: admin@strapi.dev
 ```
 
 ### You can also define them in .env with the following variables:  
