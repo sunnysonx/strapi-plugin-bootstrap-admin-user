@@ -1,8 +1,7 @@
 # strapi-plugin-bootstrap-admin-user
 Automatically creates an admin user in development mode.
 
-At the first step it verifies if `strapi-super-admin` role exists, if it doesn't exist then it creates one.
-At the second step it verifies if admin user exists, if it doesn't exist then it creates one with the `strapi-super-admin` role.
+The first step verifies if the `strapi-super-admin` role exists; if it doesn't exist, it creates one. The second step verifies if the admin user exists; if it doesn't exist, it creates one with the `strapi-super-admin` role.
 
 ### Installation
 ```
@@ -25,7 +24,7 @@ Lastname: Admin
 Email: admin@test.test
 ```
 
-### You can also define them in .env:  
+### You can also define them in .env with the following variables:  
 ```
 DEV_ADMIN_USERNAME  
 DEV_ADMIN_PASSWORD
