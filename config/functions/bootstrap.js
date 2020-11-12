@@ -1,11 +1,11 @@
 module.exports = async () => {
   if (process.env.NODE_ENV === 'development') {
     const params = {
-      username: process.env.DEV_USER || 'admin',
-      password: process.env.DEV_PASS || 'admin',
-      firstname: process.env.DEV_USER || 'Admin',
-      lastname: process.env.DEV_USER || 'Admin',
-      email: process.env.DEV_EMAIL || 'admin@test.test',
+      username: process.env.DEV_ADMIN_USERNAME || 'admin',
+      password: process.env.DEV_ADMIN_PASSWORD || 'admin',
+      firstname: process.env.DEV_ADMIN_FIRSTNAME || 'Admin',
+      lastname: process.env.DEV_ADMIN_LASTNAME || 'Admin',
+      email: process.env.DEV_ADMIN_EMAIL || 'admin@strapi.dev',
       blocked: false,
       isActive: true,
     };
