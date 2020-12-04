@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-bootstrap-admin-user",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Creates an admin user in development mode.",
   "strapi": {
     "name": "bootstrap-admin-user",

@@ -1,5 +1,5 @@
 module.exports = async () => {
-  if (process.env.NODE_ENV === 'development') {
+  if (process.env.NODE_ENV === 'development' || process.env.DEV_ADMIN_ALLOW === true) {
     const params = {
       username: process.env.DEV_ADMIN_USERNAME || 'admin',
       password: process.env.DEV_ADMIN_PASSWORD || 'admin',
